@@ -1,0 +1,4105 @@
+[
+  {
+    "id": "PUB-01",
+    "name": "Public landing page",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 0,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "GET /",
+    "visible_interface_response": {
+      "status": 200,
+      "title": "Codexx Academy | Elite Proof-of-Work Portfolio Ecosystem",
+      "h1": [
+        "Where Real Work Is Shown, Not Sold"
+      ]
+    },
+    "network_activity": {
+      "http_responses": [],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "",
+    "final_state": "landing",
+    "issues": [],
+    "screenshots": [
+      "PUB-01_landing.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "PUB-02",
+    "name": "Public professional profile",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 0,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "GET /portfolio/alice_member",
+    "visible_interface_response": {
+      "status": 200,
+      "title": "Alice Member - Professional Portfolio",
+      "headings": [
+        "Discovery Test Professional",
+        "Professional Path",
+        "Alice Member",
+        "Core Competencies",
+        "Case Studies & Evidence",
+        "Initiate Cooperation"
+      ]
+    },
+    "network_activity": {
+      "http_responses": [],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "",
+    "final_state": "profile",
+    "issues": [],
+    "screenshots": [
+      "PUB-02_profile.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "PUB-03",
+    "name": "Public catalog",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 0,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "GET /catalog",
+    "visible_interface_response": {
+      "status": 200,
+      "body": "CODEXX ACADEMY\nHome\nLogin\nPortfolios Directory\n\nExplore professional identities built by our academy members\n\nOur directory is currently being prepared. Check back soon!"
+    },
+    "network_activity": {
+      "http_responses": [],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "",
+    "final_state": "catalog",
+    "issues": [],
+    "screenshots": [
+      "PUB-03_catalog.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "PUB-04",
+    "name": "Documentation route",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 0,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "GET /documentation",
+    "visible_interface_response": {
+      "status": 404,
+      "body": "404\nPage Not Found\n\nThe page you are looking for might have been removed, had its name changed, or is temporarily unavailable.\n\nBack to Home\nGo Back"
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/documentation",
+          "status": 404
+        }
+      ],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": [
+        "Failed to load resource: the server responded with a status of 404 (NOT FOUND)"
+      ]
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "",
+    "final_state": "documentation",
+    "issues": [
+      "documentation target missing in source snapshot"
+    ],
+    "screenshots": [],
+    "console_errors": [],
+    "page_errors": [
+      "Failed to load resource: the server responded with a status of 404 (NOT FOUND)"
+    ]
+  },
+  {
+    "id": "AUTH-01",
+    "name": "Login page",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 0,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "GET /dashboard/login",
+    "visible_interface_response": {
+      "status": 200,
+      "title": "Login - Dashboard"
+    },
+    "network_activity": {
+      "http_responses": [],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "",
+    "final_state": "login",
+    "issues": [],
+    "screenshots": [
+      "AUTH-01_login.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "AUTH-02",
+    "name": "Invalid login",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 0,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "submit wrong credentials",
+    "visible_interface_response": {
+      "actions": [
+        "filled:input[name=\"username\"]",
+        "filled:input[name=\"password\"]",
+        "clicked:button[type=\"submit\"]"
+      ],
+      "flashes": [
+        "Invalid credentials. Please try again."
+      ]
+    },
+    "network_activity": {
+      "http_responses": [],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "",
+    "final_state": "invalid login result",
+    "issues": [],
+    "screenshots": [],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "AUTH-03",
+    "name": "Member login and dashboard",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 0,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "login as alice_member then open /dashboard",
+    "visible_interface_response": {
+      "actions": [
+        "filled:input[name=\"username\"]",
+        "filled:input[name=\"password\"]",
+        "clicked:button[type=\"submit\"]"
+      ],
+      "status": 200,
+      "title": "Dashboard - Codexx Admin",
+      "nav": [
+        {
+          "text": "Codexx Academy",
+          "href": "/dashboard"
+        },
+        {
+          "text": "Overview",
+          "href": "/dashboard"
+        },
+        {
+          "text": "Identity",
+          "href": "/dashboard/general"
+        },
+        {
+          "text": "Proposition",
+          "href": "/dashboard/about"
+        },
+        {
+          "text": "Competencies",
+          "href": "/dashboard/skills"
+        },
+        {
+          "text": "Gallery",
+          "href": "/dashboard/projects"
+        },
+        {
+          "text": "Contact Info",
+          "href": "/dashboard/contact"
+        },
+        {
+          "text": "CRM",
+          "href": "/dashboard/clients"
+        },
+        {
+          "text": "Inbox",
+          "href": "/dashboard/messages?category=all"
+        },
+        {
+          "text": "Internal messages",
+          "href": "/dashboard/messages/internal"
+        },
+        {
+          "text": "Channels",
+          "href": "/dashboard/social"
+        },
+        {
+          "text": "Global Settings",
+          "href": "/dashboard/settings"
+        },
+        {
+          "text": "Access Standards",
+          "href": "/dashboard/access-instructions"
+        },
+        {
+          "text": "Sign Out",
+          "href": "/dashboard/logout"
+        },
+        {
+          "text": "View All",
+          "href": "/dashboard/messages"
+        },
+        {
+          "text": "My Portfolio",
+          "href": "/portfolio/alice_member"
+        },
+        {
+          "text": "New Project Entry",
+          "href": "/dashboard/projects/add"
+        },
+        {
+          "text": "Update Identity",
+          "href": "/dashboard/general"
+        },
+        {
+          "text": "Review Inbox",
+          "href": "/dashboard/messages"
+        },
+        {
+          "text": "System Config",
+          "href": "/dashboard/settings"
+        }
+      ]
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        }
+      ],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "member session",
+    "final_state": "member dashboard",
+    "issues": [],
+    "screenshots": [
+      "AUTH-03_member_dashboard.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "AUTH-04",
+    "name": "Admin login and dashboard",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 0,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "login as siteadmin then open /dashboard",
+    "visible_interface_response": {
+      "actions": [
+        "filled:input[name=\"username\"]",
+        "filled:input[name=\"password\"]",
+        "clicked:button[type=\"submit\"]"
+      ],
+      "status": 200,
+      "title": "Dashboard - Codexx Admin",
+      "nav": [
+        {
+          "text": "Codexx Academy",
+          "href": "/dashboard"
+        },
+        {
+          "text": "Overview",
+          "href": "/dashboard"
+        },
+        {
+          "text": "User Directory",
+          "href": "/dashboard/users"
+        },
+        {
+          "text": "Channels",
+          "href": "/dashboard/social"
+        },
+        {
+          "text": "Inbox",
+          "href": "/dashboard/messages?category=all"
+        },
+        {
+          "text": "Internal messages",
+          "href": "/dashboard/messages/internal"
+        },
+        {
+          "text": "Global Settings",
+          "href": "/dashboard/settings"
+        },
+        {
+          "text": "Access Standards",
+          "href": "/dashboard/access-instructions"
+        },
+        {
+          "text": "Sign Out",
+          "href": "/dashboard/logout"
+        },
+        {
+          "text": "View All",
+          "href": "/dashboard/messages"
+        },
+        {
+          "text": "Live Site",
+          "href": "/landing"
+        },
+        {
+          "text": "Manage Users",
+          "href": "/dashboard/users"
+        },
+        {
+          "text": "System Security",
+          "href": "/dashboard/settings"
+        },
+        {
+          "text": "Platform View",
+          "href": "/landing"
+        },
+        {
+          "text": "Terminate Session",
+          "href": "/dashboard/logout"
+        }
+      ]
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        }
+      ],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "admin session",
+    "final_state": "admin dashboard",
+    "issues": [],
+    "screenshots": [
+      "AUTH-04_admin_dashboard.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "AUTH-05",
+    "name": "Registration attempt",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 0,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "GET /register",
+    "visible_interface_response": {
+      "status": 500,
+      "body": "500\nInternal Server Error\n\nOops! Something went wrong on our end. We're working to fix it.\nPlease try again later or contact support if the problem persists.\n\nGo Home\nGo Back"
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/register",
+          "status": 500
+        }
+      ],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": [
+        "Failed to load resource: the server responded with a status of 500 (INTERNAL SERVER ERROR)"
+      ]
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "",
+    "final_state": "register",
+    "issues": [
+      "expected BuildError/500 from prior static audit"
+    ],
+    "screenshots": [
+      "AUTH-05_register.png"
+    ],
+    "console_errors": [],
+    "page_errors": [
+      "Failed to load resource: the server responded with a status of 500 (INTERNAL SERVER ERROR)"
+    ]
+  },
+  {
+    "id": "COM-01",
+    "name": "Member internal message lifecycle",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 0,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "member composes internal message to admin",
+    "visible_interface_response": {
+      "inboxStatus": 200,
+      "inbox": "Codexx Academy\nOverview\nPROFESSIONAL PATH\nIdentity\nProposition\nCompetencies\nGallery\nContact Info\nOPERATIONS\nCRM\nInbox\nInternal messages\nChannels\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, alice_member\nMy Portfolio\nInternal Communications\nInternal Chat\n Contact Admin\n0 Messages\nMember\tLast Message\tDate\tActions\n\nNo Internal Messages\n\nStart a conversation with another academy member.",
+      "fields": [
+        "filled:input[name=\"receiver_id\"]",
+        "filled:textarea[name=\"message\"]",
+        "clicked:button[type=\"submit\"]"
+      ],
+      "flashes": [
+        "New thread started."
+      ]
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        },
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        },
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        }
+      ],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [],
+        "counts": {
+          "messages": 0,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 1,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "member may address administration only",
+    "final_state": "after send",
+    "issues": [],
+    "screenshots": [
+      "COM-01_inbox.png",
+      "COM-02_compose.png",
+      "COM-03_after_send.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "COM-02",
+    "name": "Member reply in own thread",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 1,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "member replies in own thread",
+    "visible_interface_response": {
+      "status": 200,
+      "body": "Codexx Academy\nOverview\nPROFESSIONAL PATH\nIdentity\nProposition\nCompetencies\nGallery\nContact Info\nOPERATIONS\nCRM\nInbox\nInternal messages\nChannels\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, alice_member\nMy Portfolio\nAdministrative Thread\nOfficial Administration\n\n Secure Professional Channel\n\nThread #84e3d93e\n Back\nMember: alice_member\n\nDiscovery synthetic inquiry\n\n End-to-end professional encryption\n Archive Thread",
+      "fields": [
+        "filled:[name=\"reply_content\"]",
+        "clicked:button[type=\"submit\"]"
+      ]
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        },
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        }
+      ],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 1,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 2,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "participant only",
+    "final_state": "after member reply",
+    "issues": [],
+    "screenshots": [
+      "COM-04_thread_view.png",
+      "COM-05_after_reply.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "COM-03",
+    "name": "Admin reply to member thread",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 2,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "admin replies to member thread",
+    "visible_interface_response": {
+      "status": 200,
+      "body": "Codexx Academy\nOverview\nPROFESSIONAL PATH\nIdentity\nProposition\nCompetencies\nGallery\nContact Info\nOPERATIONS\nCRM\nInbox\nInternal messages\nChannels\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, siteadmin\nMy Portfolio\nReply sent successfully.\nAdministrative Thread\nOfficial Administration\n\n Secure Professional Channel\n\nThread #ebe52f39\n Back\nMember: alice_member\n\nSynthetic member reply\n\nAcademy Member\n\nSynthetic admin reply\n\n2026-11-19 20:31:01\n End-to-end professional encryption\n Archive Thread",
+      "fields": [
+        "filled:[name=\"reply_content\"]",
+        "clicked:button[type=\"submit\"]"
+      ]
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        },
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        }
+      ],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 2,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "admin override",
+    "final_state": "after admin reply",
+    "issues": [],
+    "screenshots": [
+      "COM-06_admin_thread.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "COM-04",
+    "name": "Non-participant thread access",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 3,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "bob opens another member's thread (f3c227c7-85b2-4d53-af1f-315252ea0867)",
+    "visible_interface_response": {
+      "status": 200,
+      "body": "Codexx Academy\nOverview\nPROFESSIONAL PATH\nIdentity\nProposition\nCompetencies\nGallery\nContact Info\nOPERATIONS\nCRM\nInbox\nInternal messages\nChannels\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, bob_member\nMy Portfolio\nAccess denied.\nInternal Communications\nInternal Chat\n Contact Admin\n0 Messages\nMember\tLast Message\tDate\tActions\n\nNo Internal Messages\n\nStart a conversation with another academy member."
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        }
+      ],
+      "failed_requests": [
+        {
+          "url": "19808.1398",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "console_errors": [],
+      "page_errors": [
+        "Refused to apply style from 'http://127.0.0.1:5001/static/themes/midnight-blue.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled."
+      ]
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "non-participant access attempt",
+    "final_state": "after unauthorized attempt",
+    "issues": [],
+    "screenshots": [
+      "COM-07_unauthorized.png"
+    ],
+    "console_errors": [],
+    "page_errors": [
+      "Refused to apply style from 'http://127.0.0.1:5001/static/themes/midnight-blue.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled."
+    ]
+  },
+  {
+    "id": "NOT-01",
+    "name": "Notification polling",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 3,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "wait for notification poll on dashboard",
+    "visible_interface_response": {
+      "badges": []
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        }
+      ],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "",
+    "final_state": "dashboard poll",
+    "issues": [],
+    "screenshots": [],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "PF-01",
+    "name": "Portfolio profile editing",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 3,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "edit general/about/skills",
+    "visible_interface_response": {
+      "general": [
+        "filled:input[name=\"name\"]",
+        "filled:input[name=\"title\"]",
+        "filled:textarea[name=\"description\"]",
+        "clicked:button[type=\"submit\"]"
+      ],
+      "about": [
+        "filled:[name=\"about\"]",
+        "clicked:button[type=\"submit\"]"
+      ],
+      "skills": [
+        "filled:[name=\"skill_name[]\"]",
+        "filled:[name=\"skill_level[]\"]",
+        "clicked:button[type=\"submit\"]"
+      ]
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        },
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        },
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        },
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        },
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        },
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        }
+      ],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Python",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "",
+    "final_state": "after profile edits",
+    "issues": [],
+    "screenshots": [
+      "PF-01_general.png",
+      "PF-02_after_edit.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "PF-02",
+    "name": "Project lifecycle (create/list)",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 3,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "add project",
+    "visible_interface_response": {
+      "fields": [
+        "filled:[name=\"title\"]",
+        "filled:[name=\"short_description\"]",
+        "filled:[name=\"content\"]",
+        "filled:[name=\"technologies[]\"]",
+        "filled:[name=\"demo_url\"]",
+        "clicked:button[type=\"submit\"]"
+      ],
+      "body": "Codexx Academy\nOverview\nPROFESSIONAL PATH\nIdentity\nProposition\nCompetencies\nGallery\nContact Info\nOPERATIONS\nCRM\nInbox\nInternal messages\nChannels\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, alice_member\nMy Portfolio\nProject added successfully\nPortfolio Gallery\nPortfolio Showcase\n\nElevate your professional presence with verified proof-of-work\n\nCurate Project\nVISUAL ASSET\tINTELLIGENCE DETAILS\tCORE STACK\tOPERATIONS\n\n\t\nSynthetic Project\n\nDisposable project record for live testing.\n\n\t\nPython\n\t\n \n\n\n\t\nDiscovery Project\n\nSynthetic short description\n\n\t\nPython\n\t\n "
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        },
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        }
+      ],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "",
+    "final_state": "after project add",
+    "issues": [],
+    "screenshots": [
+      "PF-03_add_project.png",
+      "PF-04_projects_list.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "PF-03",
+    "name": "Public profile reflects edits",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 3,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "view public profile after edits",
+    "visible_interface_response": {
+      "status": 200,
+      "body": "Loading...\n\nCODEXX ACADEMY\nHome\nAbout\nSkills\nProjects\nContact\nDiscovery Title\n\nSynthetic description\n\nStart a Conversation\nView Portfolio\nProfessional Path\n\nThe foundation of trust and reliability\n\nAlice Discovery\n\nSynthetic about updated\n\nProfessional: Alice Discovery\nFocus Area: Discovery Title\nBase: Test City\nDirect: alice_member@example.test\nResponse:\nProof: 2 Case Studies\nView Professional Credentials\nCore Competencies\n\nMatching technical capability with your project needs\n\nPlaywright\n91%\nResearch\n70%\nCase Studies & Evidence\n\nReal-world implementation of skills and strategy\n\n View Details\nSynthetic Project\n\nDisposable project record for live testing.\n\nPython\n View Details \nDiscovery Project\n\nSynthetic short description\n\nPython\n Explore the Codexx Academy Community\nInitiate Cooperation\n\nA direct channel for professional inquiries and project discussions\n\nFull Name *\nEmail Address *\nRequest Type *\nSelect request type\nLooking for a service\nLooking for a partnership\nConsultation / Question\nJob Offer\nSomething else\nArea of Interest *\nSelect interest area\nDevelopment\nDesign\nFix / Optimization\nConsulting\nNew Project\nSeriousness Level\nJust an inquiry\nLooking to execute soon\nLooking to execute later\nPreferred Contact\nEmail\nWhatsApp\nPhone Call\nCompany / Project Name\nYour Message *\n 0/500 characters (minimum 10)\n Send Professional Inquiry\n\n We respect your privacy. Your information w"
+    },
+    "network_activity": {
+      "http_responses": [],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "",
+    "final_state": "public profile",
+    "issues": [],
+    "screenshots": [
+      "PF-05_public_after_edits.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "ADM-01",
+    "name": "Admin user management",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 3,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "admin user directory",
+    "visible_interface_response": {
+      "status": 200,
+      "body": "Codexx Academy\nOverview\nPROFESSIONAL PATH\nIdentity\nProposition\nCompetencies\nGallery\nContact Info\nOPERATIONS\nCRM\nInbox\nInternal messages\nChannels\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, siteadmin\nMy Portfolio\nManage Users\nPlatform Governance\n\nCommand and control of system access and professional identities\n\nProvision Account\nIDENTITY PROFILE\tPRIVILEGE LEVEL\tVALIDATION\tREGISTRATION\tOPERATIONS\n\nalice_member\nalice_member@example.test\n\tPROFESSIONAL\t VERIFIED\t2026-01-01\t\n \n \n \n\n\nbob_member\nbob_member@example.test\n\tPROFESSIONAL\t VERIFIED\t2026-01-01\t\n \n \n \n\n\ncarol_demo\ncarol_demo@example.test\n\tPROFESSIONAL\t DEMO_MODE\t2026-01-01\t\n \n \n "
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        }
+      ],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "admin only",
+    "final_state": "users",
+    "issues": [],
+    "screenshots": [
+      "ADM-01_users.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  },
+  {
+    "id": "ADM-02",
+    "name": "Demo mode restriction",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 3,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "demo account attempts project add",
+    "visible_interface_response": {
+      "status": 200,
+      "body": "Codexx Academy\nOverview\nPROFESSIONAL PATH\nIdentity\nProposition\nCompetencies\nGallery\nContact Info\nOPERATIONS\nCRM\nInbox\nInternal messages\nChannels\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, carol_demo\nMy Portfolio\nTraining Phase Active\n\nComplete all sections in your Professional Path to qualify for verification and full platform access.\n\nAdd New Project\nConstruct Showcase\n\nInitiate a new high-caliber proof-of-work intelligence record\n\nIntelligence Configuration\nMANDATE TITLE\nEXE"
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        }
+      ],
+      "failed_requests": [
+        {
+          "url": "19808.2526",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "console_errors": [],
+      "page_errors": [
+        "Refused to apply style from 'http://127.0.0.1:5001/static/themes/emerald-elegance.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled."
+      ]
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "demo restrictions",
+    "final_state": "demo attempt",
+    "issues": [],
+    "screenshots": [
+      "ADM-02_demo_block.png"
+    ],
+    "console_errors": [],
+    "page_errors": [
+      "Refused to apply style from 'http://127.0.0.1:5001/static/themes/emerald-elegance.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled."
+    ]
+  },
+  {
+    "id": "AUTH-06",
+    "name": "Logout and session behavior",
+    "status": "completed",
+    "tool": "chrome-cdp",
+    "initial_state": {
+      "db_counts": {
+        "messages": 3,
+        "users": 0,
+        "workspaces": 0
+      },
+      "json": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "user_action": "logout then open /dashboard",
+    "visible_interface_response": {
+      "status": 200,
+      "body": "Welcome Back\n\nSecure access to your portfolio management system\n\n Please login to access this page.\nUsername\nPassword\nSign In\n\nWelcome to Codexx Academy Portfolio Management"
+    },
+    "network_activity": {
+      "http_responses": [
+        {
+          "url": "/dashboard/notifications/latest",
+          "status": 200
+        }
+      ],
+      "failed_requests": [],
+      "console_errors": [],
+      "page_errors": []
+    },
+    "persistence_effect": {
+      "db_before": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "db_after": {
+        "messages": [
+          {
+            "id": "f3c227c7-85b2-4d53-af1f-315252ea0867",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 21,
+            "created_at": "2026-11-19 20:31:01.917540"
+          },
+          {
+            "id": "ebe52f39-6483-43b0-b548-b1149ef9c27f",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 22,
+            "created_at": "2026-11-19 20:30:58.586285"
+          },
+          {
+            "id": "84e3d93e-78e8-432f-8a0a-9796cd9f904e",
+            "category": "internal",
+            "sender_role": "member",
+            "sender_id": "1",
+            "receiver_id": "admin",
+            "parent_id": null,
+            "is_read": 0,
+            "is_internal": 1,
+            "msg_len": 27,
+            "created_at": "2026-11-19 20:30:55.286003"
+          }
+        ],
+        "counts": {
+          "messages": 3,
+          "users": 0,
+          "workspaces": 0
+        }
+      },
+      "json_before": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      },
+      "json_after": {
+        "users": [
+          {
+            "id": 1,
+            "username": "alice_member",
+            "role": "user"
+          },
+          {
+            "id": 2,
+            "username": "bob_member",
+            "role": "user"
+          },
+          {
+            "id": 3,
+            "username": "carol_demo",
+            "role": "user"
+          }
+        ],
+        "portfolios": [
+          "admin",
+          "alice_member",
+          "bob_member",
+          "carol_demo"
+        ],
+        "alice_skills": [
+          "Playwright",
+          "Research"
+        ],
+        "alice_projects": [
+          "Synthetic Project",
+          "Discovery Project"
+        ],
+        "alice_clients": 0,
+        "alice_theme": "luxury-gold"
+      }
+    },
+    "permission_behavior": "session cleared",
+    "final_state": "after logout",
+    "issues": [],
+    "screenshots": [
+      "AUTH-06_before_logout.png"
+    ],
+    "console_errors": [],
+    "page_errors": []
+  }
+]
