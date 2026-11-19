@@ -1,0 +1,217 @@
+[
+  {
+    "name": "FINAL_01_landing",
+    "path": "/",
+    "status": 200,
+    "expected": [
+      "Where Real Work Is Shown"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_01_landing.png",
+    "title": "Codexx Academy | Elite Proof-of-Work Portfolio Ecosystem",
+    "snippet": "CODEXX ACADEMY\n Login\nWhere Real Work Is Shown, Not Sold\n\nCodexx Academy is a curated environment where verified builders, service providers, and project owners present real portfolios backed by actual work.\n\nExplore Verified Portfolios\nWhat It Is\n Curated portfolios\n Real people\n Real work\nWhat It Is NOT\n Not a freelance marketplace\n Not bidding platform\n Not a social network\nWhy It Exists\n Trust before contact\n Work before talk\n Ownership over exposure\nVerified Portfolio Gallery\n\nAuthentic proof of work from our community\n\n Explore Verification Standards\nWhat does “Verified” mean?\n\n✔ The por",
+    "lang": "en",
+    "dir": "",
+    "scrollW": 1425,
+    "clientW": 1425
+  },
+  {
+    "name": "FINAL_02_public_profile",
+    "path": "/portfolio/alice_member",
+    "status": 200,
+    "expected": [
+      "Alice",
+      "Professional Path"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_02_public_profile.png",
+    "title": "Alice Discovery - Professional Portfolio",
+    "snippet": "Loading...\n\nCODEXX ACADEMY\nHome\nAbout\nSkills\nProjects\nContact\nDiscovery Title\n\nSynthetic description\n\nStart a Conversation\nView Portfolio\nProfessional Path\n\nThe foundation of trust and reliability\n\nAlice Discovery\n\nSynthetic about updated\n\nProfessional: Alice Discovery\nFocus Area: Discovery Title\nBase: Test City\nDirect: alice_member@example.test\nResponse:\nProof: 2 Case Studies\nView Professional Credentials\nCore Competencies\n\nMatching technical capability with your project needs\n\nPlaywright\n91%\nResearch\n70%\nCase Studies & Evidence\n\nReal-world implementation of skills and strategy\n\n View Details",
+    "lang": "en",
+    "dir": "",
+    "scrollW": 1425,
+    "clientW": 1425
+  },
+  {
+    "name": "FINAL_03_public_profile_bob",
+    "path": "/portfolio/bob_member",
+    "status": 200,
+    "expected": [
+      "Bob",
+      "Professional Path"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_03_public_profile_bob.png",
+    "title": "Bob Member - Professional Portfolio",
+    "snippet": "Loading...\n\nCODEXX ACADEMY\nHome\nAbout\nSkills\nProjects\nContact\nReassessment Test Professional\n\nSynthetic data for isolated product reassessment.\n\nStart a Conversation\nView Portfolio\nProfessional Path\n\nThe foundation of trust and reliability\n\nBob Member\n\nBob Member is a synthetic test profile used only in the isolated reassessment runtime.\n\nProfessional: Bob Member\nFocus Area: Reassessment Test Professional\nBase: Test City\nDirect: bob_member@example.test\nResponse:\nProof: 1 Case Studies\nView Professional Credentials\nCore Competencies\n\nMatching technical capability with your project needs\n\nPython\n",
+    "lang": "en",
+    "dir": "",
+    "scrollW": 1425,
+    "clientW": 1425
+  },
+  {
+    "name": "FINAL_04_project_detail",
+    "path": "/portfolio/alice_member/project/1",
+    "status": 200,
+    "expected": [
+      "Synthetic Project",
+      "Verified Case Study"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_04_project_detail.png",
+    "title": "Synthetic Project - Alice Discovery Portfolio",
+    "snippet": "Codexx Academy\nELITE PORTFOLIO\nBack to Portfolio\nBack to Case Studies\nSynthetic Project\nVerified Case Study\nDisposable project record for live testing.\nProject Intelligence\nCORE OBJECTIVE\n\nDisposable project record for live testing.\n\nTECHNOLOGY STACK\nPython\nDiscuss Project\nOTHER EVIDENCE\nDiscovery Project\n\n© 2026 Codexx Academy. Built for Builders.",
+    "lang": "en",
+    "dir": "",
+    "scrollW": 1425,
+    "clientW": 1425
+  },
+  {
+    "name": "FINAL_05_catalog",
+    "path": "/catalog",
+    "status": 200,
+    "expected": [
+      "Portfolios Directory"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_05_catalog.png",
+    "title": "Professional Directory | Codexx Academy Verified Talent",
+    "snippet": "CODEXX ACADEMY\nHome\nLogin\nPortfolios Directory\n\nExplore professional identities built by our academy members\n\nOur directory is currently being prepared. Check back soon!",
+    "lang": "en",
+    "dir": "",
+    "scrollW": 1440,
+    "clientW": 1440
+  },
+  {
+    "name": "FINAL_06_about",
+    "path": "/about",
+    "status": 200,
+    "expected": [
+      "About Academy"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_06_about.png",
+    "title": "About Our Vision | Codexx Academy - Elite Standards",
+    "snippet": "CODEXX ACADEMY\nAbout Academy\n\n Private Execution, Public Trust\n\nThe Codexx Philosophy\n\nCodexx Academy is not a marketplace, nor is it a social network. It is a professional infrastructure built for those who execute. We believe that in a world of digital noise, the only thing that matters is proof of work.\n\nOur model is simple: Build Privately, Show Publicly, Connect Directly.\n\n Our Mission\n\nTo provide builders, service providers, and project owners with the tools to manage their internal operations securely while building an unshakeable public reputation through verified execution history.\n\nP",
+    "lang": "en",
+    "dir": "",
+    "scrollW": 1425,
+    "clientW": 1425
+  },
+  {
+    "name": "FINAL_07_verification",
+    "path": "/verification",
+    "status": 200,
+    "expected": [
+      "Professional Verification Standard"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_07_verification.png",
+    "title": "Verification Standards | Codexx Academy Professional Badge",
+    "snippet": "CODEXX ACADEMY\nProfessional Verification Standard\n\nBehind every badge is a story of dedication and authentic execution.\n\n Digital Identity\n\nVerification is not a routine procedure. It confirms the existence of a real entity behind the screen, possessing both vision and the capacity for execution.\n\n Performance Tracking\n\nWe do not rely on promises, but on impact. Every portfolio is monitored to ensure continuous quality and commitment to high professional standards.\n\n Direct Connectivity\n\nThe platform fosters absolute transparency. Interaction with verified portfolio owners is direct and free, ",
+    "lang": "en",
+    "dir": "",
+    "scrollW": 1425,
+    "clientW": 1425
+  },
+  {
+    "name": "FINAL_08_admin_dashboard",
+    "path": "/dashboard",
+    "status": 200,
+    "expected": [
+      "Dashboard Overview",
+      "Total Users"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_08_admin_dashboard.png",
+    "title": "Dashboard - Codexx Admin",
+    "snippet": "Codexx Academy\nOverview\nSYSTEM ADMIN\nUser Directory\nChannels\nCOMMUNICATIONS\nInbox\nInternal messages\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, siteadmin\n1\nLive Site\nDashboard Overview\nDashboard\nSystem\nTotal Users\n3\nLive\nActive Portfolios\n2\nRecent\nSystem Messages\n1\nPlatform\nTotal Traffic\n3\nQuick Action Center\nManage Users\nSystem Security\nPlatform View\nTerminate Session\nAccount Diagnostics\nRoot Administrator\n\nFull System Sovereignty\n\nAuthorized as\nsiteadmin\nLast session\nOnline Now",
+    "lang": "en",
+    "dir": "ltr",
+    "scrollW": 1440,
+    "clientW": 1440
+  },
+  {
+    "name": "FINAL_09_admin_settings",
+    "path": "/dashboard/settings",
+    "status": 200,
+    "expected": [
+      "Notifications",
+      "Themes",
+      "Backups"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_09_admin_settings.png",
+    "title": "Settings - Codexx Admin",
+    "snippet": "Codexx Academy\nOverview\nSYSTEM ADMIN\nUser Directory\nChannels\nCOMMUNICATIONS\nInbox\nInternal messages\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, siteadmin\n1\nLive Site\nDashboard\nPlatform Configuration\n\nCustomize your professional presence, communication channels, and secure your data\n\nThemes\nNotifications\nBackups\nInfo\nVisual Identity & Themes\n\nSelect a visual framework that aligns with your professional brand. All changes reflect instantly.\n\nLuxury Gold\nPremium & Classic\n Active\nModern Dark\nTech & Trendy\nClean Light\nMinimal & Fresh\nTerracotta Red\nWarm & Modern\nVibrant Green\nNat",
+    "lang": "en",
+    "dir": "ltr",
+    "scrollW": 1425,
+    "clientW": 1425
+  },
+  {
+    "name": "FINAL_10_admin_access",
+    "path": "/dashboard/access-instructions",
+    "status": 200,
+    "expected": [
+      "Access & Verification Standards"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_10_admin_access.png",
+    "title": "Access & Verification Standards - Codexx Admin",
+    "snippet": "Codexx Academy\nOverview\nSYSTEM ADMIN\nUser Directory\nChannels\nCOMMUNICATIONS\nInbox\nInternal messages\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, siteadmin\n1\nLive Site\nAccess & Verification Standards\nAcademy Standards & Terms\n\nGuidelines for Platform Access and Professional Verification\n\n How to Reach Full Access\n\nFull Access is granted to professionals who demonstrate consistent activity and technical readiness.\n\nComplete at least 3 production-ready projects on your portfolio.\nEnsure all project descriptions and assets are fully populated.\nMaintain an active presence and respo",
+    "lang": "en",
+    "dir": "ltr",
+    "scrollW": 1425,
+    "clientW": 1425
+  },
+  {
+    "name": "FINAL_11_member_dashboard",
+    "path": "/dashboard",
+    "status": 200,
+    "expected": [
+      "Dashboard Overview",
+      "Total Active Projects"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_11_member_dashboard.png",
+    "title": "Dashboard - Codexx Admin",
+    "snippet": "Codexx Academy\nOverview\nPROFESSIONAL PATH\nIdentity\nProposition\nCompetencies\nGallery\nContact Info\nOPERATIONS\nCRM\nInbox\nInternal messages\nChannels\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, alice_member\n2\nMy Portfolio\nDashboard Overview\nDashboard\nTotal\nActive Projects\n2\nSkills\nCore Competencies\n2\n1 New\nInbound Requests\n1\n+15 today\nVisitor Reach\n1\nQuick Action Center\nNew Project Entry\nUpdate Identity\nReview Inbox\nSystem Config\nAccount Diagnostics\nElite Professional\n\nPublic Visibility Active\n\nAuthorized as\nalice_member\nLast session\nOnline Now",
+    "lang": "en",
+    "dir": "ltr",
+    "scrollW": 1440,
+    "clientW": 1440
+  },
+  {
+    "name": "FINAL_12_member_clients",
+    "path": "/dashboard/clients",
+    "status": 200,
+    "expected": [
+      "Clients Management"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_12_member_clients.png",
+    "title": "Clients - Dashboard - Codexx Admin",
+    "snippet": "Codexx Academy\nOverview\nPROFESSIONAL PATH\nIdentity\nProposition\nCompetencies\nGallery\nContact Info\nOPERATIONS\nCRM\nInbox\nInternal messages\nChannels\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, alice_member\n2\nMy Portfolio\nClients Management\nStrategic Partnerships\n\nHigh-caliber client relationship management and fiscal tracking\n\nOnboard Partner\nGLOBAL NETWORK\n0\nACTIVE MANDATES\n0\nPENDING PIPELINE\n0\nCAPITAL VALUE\n$0.00\nPRINCIPAL PARTNER\tOPERATIONAL MANDATE\tFISCAL ENGAGEMENT\tSTRATEGIC ACTIONS",
+    "lang": "en",
+    "dir": "ltr",
+    "scrollW": 1440,
+    "clientW": 1440
+  },
+  {
+    "name": "FINAL_13_member_settings",
+    "path": "/dashboard/settings",
+    "status": 200,
+    "expected": [
+      "Visual Identity & Themes"
+    ],
+    "waited": true,
+    "screenshot": "FINAL_13_member_settings.png",
+    "title": "Settings - Codexx Admin",
+    "snippet": "Codexx Academy\nOverview\nPROFESSIONAL PATH\nIdentity\nProposition\nCompetencies\nGallery\nContact Info\nOPERATIONS\nCRM\nInbox\nInternal messages\nChannels\nPREFERENCE\nGlobal Settings\nAccess Standards\nSign Out\nWelcome, alice_member\n2\nMy Portfolio\nDashboard\nPlatform Configuration\n\nCustomize your professional presence, communication channels, and secure your data\n\nThemes\nNotifications\nBackups\nInfo\nVisual Identity & Themes\n\nSelect a visual framework that aligns with your professional brand. All changes reflect instantly.\n\nLuxury Gold\nPremium & Classic\nModern Dark\nTech & Trendy\nClean Light\nMinimal & Fresh\nTer",
+    "lang": "en",
+    "dir": "ltr",
+    "scrollW": 1425,
+    "clientW": 1425
+  }
+]
